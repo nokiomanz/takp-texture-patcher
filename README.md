@@ -14,7 +14,7 @@ The goal is to provide an updated script that gathers all the fixes mentioned ov
 
 These fixes are scattered across the web, making it hard to find a complete source of information. Some fixes are buried in forum posts, and others are included in HD versions of the texture files. You might want the texture patches without the HD part, as HD textures can increase load times.
 
-With this repo, you can see what is patched and/or run the patcher yourself. The 75 patched files are also available if you just want to grab and replace them without running the patcher.
+With this repo, you can see what is patched and run the patcher yourself. The 75 patched files are also available if you just want to grab and replace them without running the patcher.
 
 ## How to use
 
