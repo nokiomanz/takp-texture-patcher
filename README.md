@@ -1,49 +1,53 @@
 # TAKP Texture Patcher
 
-Ever notice black spot on your armor?
-Your Half Elf cannot see through his visors.
-Dragon should have holes in their wings?
+Ever notice black spots on your armor?
+
+Your Half Elf can’t see through his visor?
+
+Dragons should have holes in their wings?
 
 This might be the fix for you!
 
-### Why this repo
+## Why this repo
 
-The objective is to have an updated script available that tries to gather all of the fixes mentionned over time. Aiming both PC and Mac version of the TAKP client.
+The goal is to provide an updated script that gathers all the fixes mentioned over time, targeting both the PC and Mac versions of the TAKP client.
 
-There is a few places where we can find these fixes. They are scattered around the web making it harder to have a complete source of information. Some of the fix are deeper in forum post. These fix are also included in a few HD version of the texture file. You might want the texture patched but not the HD part of it since it comes with downside in the form of longer load time.
+These fixes are scattered across the web, making it hard to find a complete source of information. Some fixes are buried in forum posts, and others are included in a few HD versions of the texture files. You might want the texture patches without the HD part, as HD textures can increase load times.
 
-With this available people can read and see what is patched and/or run the patcher themself. The 75 files that are patched are also available if people just want to grab and replace without having to run the patcher.
+With this repo, you can see what is patched and/or run the patcher yourself. The 75 patched files are also available if you just want to grab and replace them without running the patcher.
 
-### How to use
+## How to use
 
-#### With the patched files
+### With the patched files
 
-You just want the patched files?
+Just want the patched files?
 
-Make sure your game is closed.
-Create a copy of either your TAKP client or the .s3d files.
-Drop in place the content of the folder `patched_s3d_files` into your TAKP client.
-Start the game and enjoy.
+1. Make sure your game is closed.
+2. Create a copy of either your TAKP client or the .s3d files.
+3. Drop the contents of the `patched_s3d_files` folder into your TAKP client.
+4. Start the game and enjoy.
 
-#### With the patcher
 
-You want to patch the files yourself?
+### With the patcher
 
-Make sure your game is closed.
-You can optionnaly make a backup of your TAKP client. (The patcher does a copy of the files it patches.)
-Drop the file `patch_s3d_textures.bat` and `transpfx.exe` into your TAKP client folder
-Run the `patch_s3d_textures.bat`
-Start the game and enjoy.
+Want to patch the files yourself?
 
-### Tested on
+1. Make sure your game is closed.
+2. Optionally, make a backup of your TAKP client. (The patcher makes a copy of the files it patches.)
+3. Drop the `patch_s3d_textures.bat` and `transpfx.exe` files into your TAKP client folder.
+4. Run patch_s3d_textures.bat.
+5. Start the game and enjoy.
 
-The PC and Mac version of the TAKP client.
 
-Both client use the same .s3d files with the same md5sum meaning that the patcher and files work on the 2 TAKP client.
+## Tested on
 
-### Inspirations
+The PC and Mac versions of the TAKP client.
 
-Before preparing this repo and while testing it I ~~shamelessly stole from~~ got inspired by these peoples.
+Both clients use the same .s3d files with the same md5sum, meaning the patcher and files work on both TAKP clients.
+
+## Inspirations
+
+Before preparing this repo and while testing it, I ~~shamelessly stole from~~ got inspired by these people:
 
 - Nilbog
   - https://www.project1999.com/forums/showthread.php?t=87281
