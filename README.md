@@ -12,7 +12,7 @@ This might be the fix for you!
 
 The goal is to provide an updated script that gathers all the fixes mentioned over time, targeting both the PC and Mac versions of the TAKP client.
 
-These fixes are scattered across the web, making it hard to find a complete source of information. Some fixes are buried in forum posts, and others are included in a few HD versions of the texture files. You might want the texture patches without the HD part, as HD textures can increase load times.
+These fixes are scattered across the web, making it hard to find a complete source of information. Some fixes are buried in forum posts, and others are included in HD versions of the texture files. You might want the texture patches without the HD part, as HD textures can increase load times.
 
 With this repo, you can see what is patched and/or run the patcher yourself. The 75 patched files are also available if you just want to grab and replace them without running the patcher.
 
