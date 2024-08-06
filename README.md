@@ -4,7 +4,9 @@ Ever notice black spots on your armor?
 
 Your Half Elf can’t see through his visor?
 
-Dragons should have holes in their wings?
+Do dragons have black splotches on their wings?
+
+Places that should have transparency not displaying correctly?
 
 This might be the fix for you!
 
@@ -18,26 +20,24 @@ With this repo, you can see what is patched and run the patcher yourself. The 75
 
 ## How to use
 
-### With the patched files
+### Option 1: Using Patched Files
 
-Just want the patched files?
+Prefer to use the pre-patched files? Follow these steps:
 
 1. Make sure your game is closed.
 2. Create a copy of either your TAKP client or the .s3d files.
 3. Drop the contents of the `patched_s3d_files` folder into your TAKP client.
 4. Start the game and enjoy.
 
+### Option 2: Using the Patcher
 
-### With the patcher
-
-Want to patch the files yourself?
+Want to patch the files yourself? Here’s how:
 
 1. Make sure your game is closed.
 2. Optionally, make a backup of your TAKP client. (The patcher makes a copy of the files it patches.)
 3. Drop the `patch_s3d_textures.bat` and `transpfx.exe` files into your TAKP client folder.
-4. Run patch_s3d_textures.bat.
+4. Run `patch_s3d_textures.bat`.
 5. Start the game and enjoy.
-
 
 ## Tested on
 
